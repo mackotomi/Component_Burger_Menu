@@ -1,0 +1,47 @@
+body{
+    position: relative;
+}
+
+.closeSVG{
+    fill: rgb(255, 59, 59);
+    position: absolute;
+    top: -40px;
+    right: 0;
+    cursor: pointer;
+    /* background-color: green; */
+}
+
+.burger--menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 0 2rem;
+    z-index: 9;
+    width: 100dvw;
+    height: 100dvh;
+    display: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.burger__container{
+    position: relative;
+    /* background-color: orange; */
+    padding: 2rem
+}
+
+.burger__container a{
+    font-size: 2rem;
+    color: rgb(222, 222, 222);
+}
+
+.open{
+    display: flex;
+}
+
+.burgerSVG{
+    cursor: pointer;
+}
+
