@@ -10,6 +10,8 @@
             <a href=""><li>Contact</li></a>
             <a href=""><li>Linkedin</li></a>
             <a href=""><li>Sketchbook</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Music</li></a>
         </ul>
     </div>
 </div>
